@@ -255,10 +255,7 @@ void ftl_write(int lsn, char *sectorbuf)
 	return;
 }
 
-// 
-// Address mapping table 등을 출력하는 함수이며, 출력 포맷은 과제 설명서 참조
-// 출력 포맷을 반드시 지켜야 하며, 그렇지 않는 경우 채점시 불이익을 받을 수 있음
-//
+// Address mapping table 등을 출력하는 함수
 void ftl_print()
 {
 	printf("lbn pbn last_offset\n");
